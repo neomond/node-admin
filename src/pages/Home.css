@@ -1,0 +1,114 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  background-color: rgba(215, 180, 148, 0.2);
+}
+
+.head h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.home-container h1 {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.home-container-create {
+  font-family: "FuturaBookC";
+  font-size: 21px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.home-container-create:hover {
+  color: #242424;
+  text-decoration: #242424 underline;
+}
+
+.home-container span {
+  color: #242424;
+  font-weight: 500;
+}
+
+.home-icons {
+  width: 30px;
+  height: 30px;
+  color: #e1c4a9;
+}
+
+.product-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+.product-img img {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.table a {
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.table a:hover {
+  color: #e1c4a9;
+  text-decoration: underline;
+}
+
+.table th {
+  padding-bottom: 2rem;
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.home-del-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 21px;
+}
+
+.home-edit-btn,
+.home-del-btn {
+  width: 28px;
+  height: 28px;
+}
+
+.home-featured,
+.home-price {
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(229, 229, 229, 0.2);
+}

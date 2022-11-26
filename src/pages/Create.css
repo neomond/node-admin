@@ -1,0 +1,96 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.form-container h1 {
+  padding-bottom: 2rem;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+form {
+  width: 700px;
+  height: auto;
+  border: 2px dashed #f8efe7;
+  padding: 2rem 4rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding-left: 1rem;
+  font-family: "FuturaBookC";
+  font-size: 16px;
+}
+textarea {
+  padding-top: 1rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+.form-control label {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-top: 1.5rem;
+}
+.form-control input,
+.form-control textarea {
+  height: 45px;
+  border: 1px solid #dadada;
+  outline: none;
+}
+.preview-image {
+  height: 200px;
+  /* width: 200px; */
+  border-radius: 5px;
+}
+
+.form-control-featured {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form-control-featured input {
+  width: 5%;
+  height: 16px;
+  margin-top: 1.5rem;
+}
+.form-control-bottom input {
+  border: none;
+}
+
+.create-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #242424;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  color: #f8efe7;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.create-btn:hover {
+  transition: all 0.3s ease-in;
+  color: #242424;
+  background-color: #dadada;
+  border: #d7b494;
+}
